@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TesteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.title = "Teste"
+        self.view.backgroundColor = .systemBackground
     }
-
-
 }
 
